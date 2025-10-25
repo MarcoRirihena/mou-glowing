@@ -15,7 +15,7 @@ class UpdateAdminSeeder extends Seeder
             ['email' => 'admin@mouglowing.com'],
             [
                 'name' => 'Admin Mou Glowing',
-                'password' => Hash::make('AdminMouGlowing2024!'),
+                'password' => Hash::make('AdminMouGlowing2025!'),
                 'role' => 'admin'
             ]
         );

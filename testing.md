@@ -5,7 +5,7 @@
 ### ✅ Login Admin
 1. Buka `/login`
 2. Email: `admin@mouglowing.com`
-3. Password: `AdminMouGlowing2024!`
+3. Password: `AdminMouGlowing2025!`
 4. Klik Login
 5. **Expected:** Redirect ke `/admin/dashboard`
 
