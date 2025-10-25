@@ -122,4 +122,4 @@ Proprietary - Mou Glowing 13
 
 ---
 
-**Developed with ❤️ - 2025**
+**Developed with ❤️ - 2025l**
