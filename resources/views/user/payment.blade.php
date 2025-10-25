@@ -68,7 +68,7 @@
                         <strong>Silakan transfer ke salah satu rekening berikut:</strong>
                     </div>
 
-                    <div class="card bg-light border-primary mb-3">
+                    {{-- <div class="card bg-light border-primary mb-3">
                         <div class="card-body">
                             <h6 class="text-primary mb-3">Bank BCA</h6>
                             <div class="row">
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="card bg-light border-info">
                         <div class="card-body">
@@ -129,9 +129,9 @@
                             @csrf
                             <div class="mb-3">
                                 <label for="payment_proof" class="form-label">Pilih Foto Bukti Transfer</label>
-                                <input type="file" 
-                                       class="form-control @error('payment_proof') is-invalid @enderror" 
-                                       id="payment_proof" 
+                                <input type="file"
+                                       class="form-control @error('payment_proof') is-invalid @enderror"
+                                       id="payment_proof"
                                        name="payment_proof"
                                        accept="image/jpeg,image/png,image/jpg"
                                        required>
@@ -167,8 +167,8 @@
                             <small>Tanggal: {{ $order->payment_date->format('d M Y, H:i') }}</small>
                         </div>
                         @if($order->payment_proof)
-                            <img src="{{ asset('storage/' . $order->payment_proof) }}" 
-                                 alt="Payment Proof" 
+                            <img src="{{ asset('storage/' . $order->payment_proof) }}"
+                                 alt="Payment Proof"
                                  class="img-fluid rounded shadow"
                                  style="max-height: 400px;">
                         @endif
