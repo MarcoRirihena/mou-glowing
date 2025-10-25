@@ -45,9 +45,18 @@
                                             name="category" 
                                             required>
                                         <option value="">Pilih Kategori</option>
+                                        <option value="Facial Wash" {{ old('category', $product->category) == 'Facial Wash' ? 'selected' : '' }}>Facial Wash</option>
+                                        <option value="Facial Toner" {{ old('category', $product->category) == 'Facial Toner' ? 'selected' : '' }}>Facial Toner</option>
+                                        <option value="Serum" {{ old('category', $product->category) == 'Serum' ? 'selected' : '' }}>Serum</option>
+                                        <option value="Moisturizer" {{ old('category', $product->category) == 'Moisturizer' ? 'selected' : '' }}>Moisturizer</option>
+                                        <option value="Sunscreen" {{ old('category', $product->category) == 'Sunscreen' ? 'selected' : '' }}>Sunscreen</option>
                                         <option value="Masker Wajah" {{ old('category', $product->category) == 'Masker Wajah' ? 'selected' : '' }}>Masker Wajah</option>
-                                        <option value="Cream Wajah" {{ old('category', $product->category) == 'Cream Wajah' ? 'selected' : '' }}>Cream Wajah</option>
-                                        <option value="Kosmetik" {{ old('category', $product->category) == 'Kosmetik' ? 'selected' : '' }}>Kosmetik</option>
+                                        <option value="Eye Cream" {{ old('category', $product->category) == 'Eye Cream' ? 'selected' : '' }}>Eye Cream</option>
+                                        <option value="Lip Care" {{ old('category', $product->category) == 'Lip Care' ? 'selected' : '' }}>Lip Care</option>
+                                        <option value="Makeup" {{ old('category', $product->category) == 'Makeup' ? 'selected' : '' }}>Makeup</option>
+                                        <option value="Body Care" {{ old('category', $product->category) == 'Body Care' ? 'selected' : '' }}>Body Care</option>
+                                        <option value="Hair Care" {{ old('category', $product->category) == 'Hair Care' ? 'selected' : '' }}>Hair Care</option>
+                                        <option value="Lainnya" {{ old('category', $product->category) == 'Lainnya' ? 'selected' : '' }}>Lainnya</option>
                                     </select>
                                     @error('category')
                                         <div class="invalid-feedback">{{ $message }}</div>

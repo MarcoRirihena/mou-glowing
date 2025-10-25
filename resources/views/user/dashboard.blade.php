@@ -53,13 +53,20 @@
 
                             <!-- Category Filter -->
                             <div class="col-md-4">
-                                <select name="category"
-                                        class="form-select"
-                                        onchange="document.getElementById('filterForm').submit()">
+                                <select name="category" class="form-select" onchange="document.getElementById('filterForm').submit()">
                                     <option value="">Semua Kategori</option>
+                                    <option value="Facial Wash" {{ request('category') == 'Facial Wash' ? 'selected' : '' }}>Facial Wash</option>
+                                    <option value="Facial Toner" {{ request('category') == 'Facial Toner' ? 'selected' : '' }}>Facial Toner</option>
+                                    <option value="Serum" {{ request('category') == 'Serum' ? 'selected' : '' }}>Serum</option>
+                                    <option value="Moisturizer" {{ request('category') == 'Moisturizer' ? 'selected' : '' }}>Moisturizer</option>
+                                    <option value="Sunscreen" {{ request('category') == 'Sunscreen' ? 'selected' : '' }}>Sunscreen</option>
                                     <option value="Masker Wajah" {{ request('category') == 'Masker Wajah' ? 'selected' : '' }}>Masker Wajah</option>
-                                    <option value="Cream Wajah" {{ request('category') == 'Cream Wajah' ? 'selected' : '' }}>Cream Wajah</option>
-                                    <option value="Kosmetik" {{ request('category') == 'Kosmetik' ? 'selected' : '' }}>Kosmetik</option>
+                                    <option value="Eye Cream" {{ request('category') == 'Eye Cream' ? 'selected' : '' }}>Eye Cream</option>
+                                    <option value="Lip Care" {{ request('category') == 'Lip Care' ? 'selected' : '' }}>Lip Care</option>
+                                    <option value="Makeup" {{ request('category') == 'Makeup' ? 'selected' : '' }}>Makeup</option>
+                                    <option value="Body Care" {{ request('category') == 'Body Care' ? 'selected' : '' }}>Body Care</option>
+                                    <option value="Hair Care" {{ request('category') == 'Hair Care' ? 'selected' : '' }}>Hair Care</option>
+                                    <option value="Lainnya" {{ request('category') == 'Lainnya' ? 'selected' : '' }}>Lainnya</option>
                                 </select>
                             </div>
 

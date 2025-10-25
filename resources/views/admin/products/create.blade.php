@@ -45,9 +45,18 @@
                                             name="category" 
                                             required>
                                         <option value="">Pilih Kategori</option>
+                                        <option value="Facial Wash" {{ old('category') == 'Facial Wash' ? 'selected' : '' }}>Facial Wash</option>
+                                        <option value="Facial Toner" {{ old('category') == 'Facial Toner' ? 'selected' : '' }}>Facial Toner</option>
+                                        <option value="Serum" {{ old('category') == 'Serum' ? 'selected' : '' }}>Serum</option>
+                                        <option value="Moisturizer" {{ old('category') == 'Moisturizer' ? 'selected' : '' }}>Moisturizer</option>
+                                        <option value="Sunscreen" {{ old('category') == 'Sunscreen' ? 'selected' : '' }}>Sunscreen</option>
                                         <option value="Masker Wajah" {{ old('category') == 'Masker Wajah' ? 'selected' : '' }}>Masker Wajah</option>
-                                        <option value="Cream Wajah" {{ old('category') == 'Cream Wajah' ? 'selected' : '' }}>Cream Wajah</option>
-                                        <option value="Kosmetik" {{ old('category') == 'Kosmetik' ? 'selected' : '' }}>Kosmetik</option>
+                                        <option value="Eye Cream" {{ old('category') == 'Eye Cream' ? 'selected' : '' }}>Eye Cream</option>
+                                        <option value="Lip Care" {{ old('category') == 'Lip Care' ? 'selected' : '' }}>Lip Care</option>
+                                        <option value="Makeup" {{ old('category') == 'Makeup' ? 'selected' : '' }}>Makeup</option>
+                                        <option value="Body Care" {{ old('category') == 'Body Care' ? 'selected' : '' }}>Body Care</option>
+                                        <option value="Hair Care" {{ old('category') == 'Hair Care' ? 'selected' : '' }}>Hair Care</option>
+                                        <option value="Lainnya" {{ old('category') == 'Lainnya' ? 'selected' : '' }}>Lainnya</option>
                                     </select>
                                     @error('category')
                                         <div class="invalid-feedback">{{ $message }}</div>

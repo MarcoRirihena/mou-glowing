@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Str;
+use Exception;
 
 class GoogleController extends Controller
 {
@@ -42,8 +43,8 @@ class GoogleController extends Controller
             
             return redirect()->route('user.dashboard');
             
-        } catch (\Exception $e) {
-            return redirect()->route('login')->with('error', 'Login dengan Google gagal!');
+        } catch (Exception $e) {
+            return redirect()->route('login')->with('error', 'Login dengan Google gagal! Silakan coba lagi.');
         }
     }
 }

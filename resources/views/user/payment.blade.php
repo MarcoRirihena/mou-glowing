@@ -65,7 +65,7 @@
                 </div>
                 <div class="card-body">
                     <div class="alert alert-info">
-                        <strong>Silakan transfer ke rekening berikut:</strong>
+                        <strong>Silakan transfer ke salah satu rekening berikut:</strong>
                     </div>
 
                     <div class="card bg-light border-primary mb-3">
@@ -84,7 +84,7 @@
                         </div>
                     </div>
 
-                    <div class="card bg-light border-success">
+                    <div class="card bg-light border-success mb-3">
                         <div class="card-body">
                             <h6 class="text-success mb-3">Bank Mandiri</h6>
                             <div class="row">
@@ -95,6 +95,22 @@
                                 <div class="col-6">
                                     <p class="mb-2"><strong>Atas Nama:</strong></p>
                                     <h5 class="mb-0">Mou Glowing 13</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light border-info">
+                        <div class="card-body">
+                            <h6 class="text-info mb-3">BLU by BCA Digital</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="mb-2"><strong>No. Rekening:</strong></p>
+                                    <h4 class="text-primary-red mb-0">003313331313</h4>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-2"><strong>Atas Nama:</strong></p>
+                                    <h5 class="mb-0">Diago</h5>
                                 </div>
                             </div>
                         </div>
