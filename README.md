@@ -122,4 +122,8 @@ Proprietary - Mou Glowing 13
 
 ---
 
+## Email Credentials
+mouglowing13@gmail.com
+AdminMouGlowing2024!
+
 **Developed with ❤️ - 2025l**
