@@ -24,7 +24,9 @@ class Order extends Model
         'payment_date',
         'notes'
     ];
-
+    protected $casts = [
+        'payment_date' => 'datetime',
+    ];
     public function user()
     {
         return $this->belongsTo(User::class);
