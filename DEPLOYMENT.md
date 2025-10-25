@@ -258,4 +258,4 @@ chmod -R 755 public/storage
 ## Support
 
 - Hostinger Support: https://www.hostinger.co.id/bantuan
-- Developer: contact@mouglowing.com
+- Developer: marcoleonririhena@gmail.com
