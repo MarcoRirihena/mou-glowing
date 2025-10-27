@@ -425,7 +425,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 hero-content">
-                    <h1>kontol</h1>
+                    <h1>Glow Your Beauty</h1>
                     <p>Temukan rahasia kulit sehat dan bercahaya dengan produk skincare premium kami. Dipercaya oleh ribuan wanita Indonesia.</p>
                     @auth
                         @if(auth()->user()->role === 'user')
