@@ -383,7 +383,7 @@
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <i class="fas fa-spa"></i> Rere cantik
+                <i class="fas fa-spa"></i> MOU GLOWING 13
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
