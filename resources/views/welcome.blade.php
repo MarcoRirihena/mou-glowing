@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mou Glowing 13 - Premium Skincare</title>
+    <title>Rere cantik</title>
     <!-- SEO Meta Tags -->
     <meta name="description" content="Mou Glowing 13 - Toko skincare online terpercaya dengan produk original. Jual masker wajah, cream wajah, dan kosmetik berkualitas untuk kecantikan kulit Anda.">
     <meta name="keywords" content="skincare, kosmetik, masker wajah, cream wajah, kecantikan, perawatan kulit, Mou Glowing 13">
