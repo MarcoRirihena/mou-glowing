@@ -79,10 +79,10 @@
                 color: white;
             }
             
-            .floating-btn-whatsapp {
+            /* .floating-btn-whatsapp {
                 background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
             }
-            
+             */
             .floating-btn-instagram {
                 background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F77737 100%);
             }
@@ -181,9 +181,9 @@
         <!-- Floating Social Buttons (Only for User Dashboard) -->
         @if(auth()->check() && auth()->user()->role === 'user')
         <div class="floating-buttons">
-            <a href="https://wa.me/6288293663097" target="_blank" class="floating-btn floating-btn-whatsapp" title="WhatsApp">
+            {{-- <a href="https://wa.me/6288293663097" target="_blank" class="floating-btn floating-btn-whatsapp" title="WhatsApp">
                 <i class="fab fa-whatsapp"></i>
-            </a>
+            </a> --}}
             <a href="https://www.instagram.com/mou_glowing/" target="_blank" class="floating-btn floating-btn-instagram" title="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>

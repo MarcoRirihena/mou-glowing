@@ -124,21 +124,21 @@
                                 <a href="{{ route('checkout.form') }}" class="btn btn-primary-red w-100 py-3 mb-2">
                                     <i class="fas fa-shopping-bag"></i> Lanjut ke Checkout
                                 </a>
-
+{{-- 
                                 <a href="{{ route('checkout.whatsapp') }}" class="btn btn-success w-100 py-3 mb-2">
                                     <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
-                                </a>
+                                </a> --}}
                                 
                                 <a href="{{ route('user.dashboard') }}" class="btn btn-outline-secondary w-100">
                                     <i class="fas fa-arrow-left"></i> Lanjut Belanja
                                 </a>
 
-                                <div class="alert alert-info mt-3 mb-0">
+                                {{-- <div class="alert alert-info mt-3 mb-0">
                                     <small>
                                         <i class="fas fa-info-circle"></i> 
                                         Pilih checkout via website untuk tracking pesanan atau WhatsApp untuk respon cepat.
                                     </small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

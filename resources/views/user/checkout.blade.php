@@ -178,9 +178,9 @@
                                     <i class="fas fa-check-circle"></i> Buat Pesanan
                                 </button>
 
-                                <a href="{{ route('checkout.whatsapp') }}" class="btn btn-success w-100 py-3">
+                                {{-- <a href="{{ route('checkout.whatsapp') }}" class="btn btn-success w-100 py-3">
                                     <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
-                                </a>
+                                </a> --}}
 
                                 <div class="alert alert-info mt-3 mb-0">
                                     <small>

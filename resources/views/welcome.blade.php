@@ -540,6 +540,7 @@
         </div>
     </section>
 
+ 
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
         <div class="container">
@@ -550,19 +551,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="row g-4">
-                        <div class="col-md-4">
-                            <div class="contact-card text-center">
-                                <div class="contact-icon">
-                                    <i class="fab fa-whatsapp"></i>
-                                </div>
-                                <h5>WhatsApp</h5>
-                                <a href="https://wa.me/+6288293663097" target="_blank">
-                                    +62 882-9366-3097
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="contact-card text-center">
+                        <div class="col-md-6">
+                            <div class="contact-card">
                                 <div class="contact-icon">
                                     <i class="fab fa-instagram"></i>
                                 </div>
@@ -572,8 +562,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="contact-card text-center">
+                        <div class="col-md-6">
+                            <div class="contact-card">
                                 <div class="contact-icon">
                                     <i class="fas fa-comments"></i>
                                 </div>
@@ -588,50 +578,3 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 footer-content">
-                    <h4 class="text-white mb-3">MOU GLOWING 13</h4>
-                    <p>Solusi kecantikan terpercaya untuk kulit sehat dan bercahaya.</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <h5 class="text-white mb-3">Follow Us</h5>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/mou_glowing/" target="_blank" title="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://services.zangi.com/dl/conversation/1179117603" target="_blank" title="Zangi">
-                            <i class="fas fa-comments"></i>
-                        </a>
-                        <a href="https://wa.me/+6288293663097" target="_blank" title="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <hr style="border-color: rgba(220, 20, 60, 0.2); margin: 2rem 0;">
-            <div class="text-center footer-content">
-                <p>&copy; 2024 Mou Glowing 13. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Floating Social Buttons -->
-    <div class="floating-buttons">
-        <a href="https://wa.me/+6288293663097" target="_blank" class="floating-btn floating-btn-whatsapp" title="WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="https://www.instagram.com/mou_glowing/" target="_blank" class="floating-btn floating-btn-instagram" title="Instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://services.zangi.com/dl/conversation/1179117603" target="_blank" class="floating-btn floating-btn-zangi" title="Zangi">
-            <i class="fas fa-comments"></i>
-        </a>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>

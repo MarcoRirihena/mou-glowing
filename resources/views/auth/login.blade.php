@@ -46,12 +46,12 @@
     <!-- Divider -->
     <div class="flex items-center my-6">
         <div class="flex-1 border-t border-gray-300"></div>
-        <span class="px-4 text-sm text-gray-500">Atau login dengan</span>
+        <span class="px-4 text-sm text-gray-500">Belum punya akun ?</span>
         <div class="flex-1 border-t border-gray-300"></div>
     </div>
 
     <!-- Google Login Button -->
-    <a href="{{ route('google.redirect') }}" 
+    {{-- <a href="{{ route('google.redirect') }}" 
        class="w-full inline-flex justify-center items-center px-4 py-3 bg-white border border-gray-300 rounded-md font-semibold text-sm text-gray-700 tracking-widest shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
         <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24">
             <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
@@ -60,11 +60,11 @@
             <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
         </svg>
         Login dengan Google
-    </a>
+    </a> --}}
 
     <!-- Register Link -->
     <div class="text-center mt-4">
-        <span class="text-sm text-gray-600">Belum punya akun? </span>
+        {{-- <span class="text-sm text-gray-600">Belum punya akun? </span> --}}
         <a href="{{ route('register') }}" class="text-sm text-indigo-600 hover:text-indigo-900">
             Daftar sekarang
         </a>
